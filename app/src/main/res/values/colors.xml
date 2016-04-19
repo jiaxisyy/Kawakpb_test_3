@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="shouye_ab_weixuanzhong">#809EAA</color>
+    <color name="shouye_ab_xuanzhong">#FFFFFF</color>
+    <color name="text_login_input_normal">#BFBFC1</color>
+    <color name="text_login_input_pre">#58CFEF</color>
+</resources>
