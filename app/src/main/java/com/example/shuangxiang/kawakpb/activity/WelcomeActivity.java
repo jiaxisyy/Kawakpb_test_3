@@ -33,8 +33,10 @@ public class WelcomeActivity extends Activity {
     }
 
 
-
-
+    /**
+     *
+     * 进入主界面
+     */
     private void enterMain() {
 
         Intent intent = new Intent(this, MainActivity.class);

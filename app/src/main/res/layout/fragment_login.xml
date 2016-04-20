@@ -7,7 +7,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/loging_blue_ditu">
+        android:background="@mipmap/loging_blue_ditu">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -16,7 +16,7 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/loging_di"
+                android:background="@mipmap/loging_di"
                 android:gravity="center">
                 <TextView
                     android:layout_width="wrap_content"
@@ -34,12 +34,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/loging_gray_di"
+        android:background="@mipmap/loging_gray_di"
         android:gravity="center">
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/loging_whitedi"
+            android:background="@mipmap/loging_whitedi"
             android:orientation="vertical"
             android:gravity="center_horizontal">
             <EditText
@@ -80,7 +80,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/loging_btn_blue"
+                android:background="@mipmap/loging_btn_blue"
                 android:layout_gravity="center_horizontal"
                 android:text="登录"
                 android:textSize="20px"

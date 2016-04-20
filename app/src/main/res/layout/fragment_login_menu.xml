@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200px"
+    android:layout_height="match_parent"
+    android:background="#C5F5FF"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/left_login"
+        style="@style/left_menu_selector"
+        android:layout_marginTop="30px"
+        android:background="@drawable/selector_left_menu"
+        android:text="登录" />
+
+    <TextView
+        android:id="@+id/left_logout"
+        style="@style/left_menu_selector"
+        android:layout_marginTop="24px"
+        android:background="@drawable/selector_left_menu"
+        android:text="注销" />
+    </LinearLayout>
+    <TextView
+
+        style="@style/left_menu_selector"
+        android:background="@drawable/selector_left_menu"
+        android:text="0"
+
+        />
+
+
+</RelativeLayout>

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/image">
+    android:background="@mipmap/image">
     <!--顶层的logo与时间日期布局-->
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,7 +42,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="38px"
-                android:background="@drawable/shouye_biaopan"/>
+                android:background="@mipmap/shouye_biaopan"/>
         </LinearLayout>
         <!--参数设置的垂直布局，由上至下-->
         <LinearLayout
@@ -63,7 +63,7 @@
                     android:textSize="26px"
                     android:text="0.0"
                     android:layout_marginLeft="57px"
-                    android:background="@drawable/shouye_shuju_anjian"/>
+                    android:background="@mipmap/shouye_shuju_anjian"/>
                 <EditText
                     android:id="@+id/et__home_concentration"
                     android:layout_width="wrap_content"
@@ -73,7 +73,7 @@
                     android:textColor="#ffffff"
                     android:textSize="26px"
                     android:text="0.0"
-                    android:background="@drawable/shouye_shuju_anjian"/>
+                    android:background="@mipmap/shouye_shuju_anjian"/>
             </LinearLayout>
             <!--输入框文字提示包裹布局-->
             <LinearLayout
@@ -129,7 +129,7 @@
                     android:textSize="26px"
                     android:text="0"
                     android:layout_marginLeft="57px"
-                    android:background="@drawable/shouye_shuju_anjian"/>
+                    android:background="@mipmap/shouye_shuju_anjian"/>
                 <EditText
                     android:id="@+id/et__home_Total"
                     android:layout_width="wrap_content"
@@ -139,7 +139,7 @@
                     android:textColor="#ffffff"
                     android:textSize="26px"
                     android:text="0"
-                    android:background="@drawable/shouye_shuju_anjian"/>
+                    android:background="@mipmap/shouye_shuju_anjian"/>
             </LinearLayout>
             <!--输入框文字提示包裹布局-->
             <LinearLayout

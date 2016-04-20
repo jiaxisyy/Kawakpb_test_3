@@ -6,108 +6,64 @@
     <FrameLayout
         android:id="@+id/frameLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent" />
 
-    <RelativeLayout
+    <LinearLayout
 
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="94px"
         android:layout_alignParentBottom="true"
-        android:layout_gravity="center_vertical"
-        android:background="@drawable/foot_bar_di"
-        android:gravity="center_vertical">
+        android:background="#0084BB">
 
         <RadioGroup
+
+            android:id="@+id/rg_main"
             android:layout_width="match_parent"
-            android:layout_height="94px">
-
-
-
-        <!--首页按钮-->
-        <RadioButton
-            android:id="@+id/iv_home"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
             android:layout_marginLeft="106px"
-            android:drawableTop="@drawable/selector_home_icon"
-            android:clickable="true"
-
-            />
-
-        <TextView
-            android:id="@+id/tv_home"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="6px"
-            android:layout_toRightOf="@+id/iv_home"
-            android:text="首页"
-            android:textColor="#FFFFFF"
-            android:textSize="18px" />
-
-
-        <RadioButton
-            android:id="@+id/iv_login"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="74px"
-            android:layout_toRightOf="@+id/tv_home"
-            android:background="@drawable/denglu_weixuanzhong" />
-
-        <TextView
-            android:id="@+id/tv_login"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="6px"
-            android:layout_toRightOf="@+id/iv_login"
-            android:text="登录"
-            android:textColor="#FFFFFF"
-            android:textSize="18px" />
-
-        <RadioButton
-            android:id="@+id/iv_parameter"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="6px"
-            android:layout_toLeftOf="@+id/tv_parameter"
-            android:background="@drawable/canshu_weixuanzhong"
-
-            />
-
-        <TextView
-            android:id="@+id/tv_parameter"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="74px"
-            android:layout_toLeftOf="@+id/iv_setting"
-            android:text="参数"
-            android:textColor="#FFFFFF"
-            android:textSize="18px" />
-
-        <RadioButton
-            android:id="@+id/iv_setting"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="6px"
-            android:layout_toLeftOf="@+id/tv_setting"
-            android:background="@drawable/shezhi_weixuanzhong" />
-
-        <TextView
-            android:id="@+id/tv_setting"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
             android:layout_marginRight="106px"
-            android:text="设置"
-            android:textColor="#FFFFFF"
-            android:textSize="18px" />
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+
+
+            >
+            <!--首页按钮-->
+            <RadioButton
+                android:id="@+id/rb_home"
+                style="@style/RadioButton_main"
+                android:checked="true"
+                android:drawableLeft="@drawable/selector_home_icon"
+                android:gravity="center"
+
+                android:paddingLeft="10dp"
+                android:text="@string/home_icon" />
+            <!--登录按钮-->
+            <RadioButton
+                android:id="@+id/rb_login"
+                style="@style/RadioButton_main"
+                android:drawableLeft="@drawable/selector_login_icon"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:text="@string/login_icon" />
+            <!--参数-->
+            <RadioButton
+                android:id="@+id/rb_parameter"
+                style="@style/RadioButton_main"
+                android:drawableLeft="@drawable/selector_parameter_icon"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:text="@string/parameter_icon" />
+            <!--设置-->
+            <RadioButton
+                android:id="@+id/rb_setting"
+                style="@style/RadioButton_main"
+                android:drawableLeft="@drawable/selector_setting_icon"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:text="@string/setting_icon" />
         </RadioGroup>
-
-    </RelativeLayout>
-
+    </LinearLayout>
 </RelativeLayout>
 
 
