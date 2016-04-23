@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/parameter_time_ditu">
+    <!--顶层布局-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--返回按键-->
+        <Button
+            android:id="@+id/specialcontrol_btn_back"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:background="@mipmap/wangjimima_btn_return"
+            android:layout_marginTop="20px"
+            android:layout_marginLeft="20px"
+            android:layout_alignParentLeft="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="特殊控制"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="40px"
+            android:textSize="30px"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="148px">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="密码停机"
+        android:gravity="center"
+        android:textSize="28px"
+        android:textColor="#ffffff"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="密码停机"
+        android:gravity="center"
+        android:textSize="28px"
+        android:textColor="#ffffff"
+        android:layout_weight="1"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82px">
+        <Button
+            android:id="@+id/specialcontrol_btn_stop_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开"
+            android:paddingLeft="20px"
+            android:textColor="#ffffff"
+            android:background="@drawable/set_specialcontrols_btn_selector"
+            android:layout_marginLeft="130px"/>
+        <Button
+            android:id="@+id/specialcontrol_btn_stop_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关"
+            android:paddingLeft="20px"
+            android:gravity="center"
+            android:background="@drawable/set_specialcontrols_btn_selector"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="260px"/>
+    </LinearLayout>
+</LinearLayout>

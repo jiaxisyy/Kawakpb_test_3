@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:drawable="@mipmap/shouye_yunxing_anjian"  android:state_focused="true"/>-->
+    <!--<item android:drawable="@mipmap/shouye_yunxing_anjian" android:state_selected="true"/>-->
+    <!--<item android:drawable="@mipmap/shouye_daiji_anjian" android:state_enabled="true"/>-->
+    <!--<item android:drawable="@mipmap/shouye_weiyunxing_anjian"/>-->
+
+
+    <!--<item android:drawable="@mipmap/shouye_yunxing_anjian" android:state_pressed="true"></item>-->
+    <item android:drawable="@mipmap/home_yunxing_anjiian_a" android:state_checked="true"></item>
+    <item android:drawable="@mipmap/home_weiyunxing_anjiian_a"></item>
+</selector>

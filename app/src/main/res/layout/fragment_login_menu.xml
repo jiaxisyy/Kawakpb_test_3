@@ -3,37 +3,55 @@
     android:layout_width="200px"
     android:layout_height="match_parent"
     android:background="#C5F5FF"
-   >
+    android:gravity="center_horizontal">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_horizontal"
         android:orientation="vertical">
+        <TextView
+            android:id="@+id/left_login"
 
+            style="@style/left_menu_selector"
+            android:layout_marginTop="30px"
+            android:clickable="true"
+            android:background="@drawable/selector_left_menu"
+            android:text="登录" />
 
-
-    <TextView
-        android:id="@+id/left_login"
-        style="@style/left_menu_selector"
-        android:layout_marginTop="30px"
-        android:background="@drawable/selector_left_menu"
-        android:text="登录" />
-
-    <TextView
-        android:id="@+id/left_logout"
-        style="@style/left_menu_selector"
-        android:layout_marginTop="24px"
-        android:background="@drawable/selector_left_menu"
-        android:text="注销" />
+        <TextView
+            android:id="@+id/left_logout"
+            android:clickable="true"
+            style="@style/left_menu_selector"
+            android:layout_marginTop="24px"
+            android:background="@drawable/selector_left_menu"
+            android:text="注销" />
     </LinearLayout>
-    <TextView
 
-        style="@style/left_menu_selector"
-        android:background="@drawable/selector_left_menu"
-        android:text="0"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
 
-        />
+        <TextView
 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8px"
+            android:gravity="center_horizontal"
+            android:text="当前用户"
 
+            android:textColor="#000000"
+            android:textSize="18px" />
+
+        <TextView
+            android:id="@+id/left_userCount"
+            style="@style/left_menu_selector"
+            android:layout_marginBottom="50px"
+            android:background="@drawable/selector_left_menu"
+            android:text="0" />
+
+    </LinearLayout>
 </RelativeLayout>
