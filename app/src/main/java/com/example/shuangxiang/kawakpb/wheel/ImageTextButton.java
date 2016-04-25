@@ -30,7 +30,6 @@ public class ImageTextButton extends Button
 	@Override
 	protected void onDraw(Canvas canvas)
 	{
-		// ͼƬ����������ʾ
 		int x = (this.getMeasuredWidth() - bitmap.getWidth()) >> 1;
 		int y = 0;
 		canvas.drawBitmap(bitmap, x, y, null);
