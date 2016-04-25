@@ -11,6 +11,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
@@ -62,6 +63,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     private void initView() {
         radioGroup = (RadioGroup) findViewById(R.id.rg_main);
         radioGroup.check(R.id.rb_home);
+
         drawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
         fragment_login_menu_succeed = getLayoutInflater().inflate(R.layout.fragment_login_menu_succeed, null);
         fragment_login_menu = getLayoutInflater().inflate(R.layout.fragment_login_menu, null);

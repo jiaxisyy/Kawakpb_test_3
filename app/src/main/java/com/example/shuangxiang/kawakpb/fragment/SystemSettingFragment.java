@@ -2,6 +2,8 @@ package com.example.shuangxiang.kawakpb.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -30,6 +32,15 @@ public class SystemSettingFragment extends Fragment{
     private EditText systemsetting_et_auxiliary;
     private EditText systemsetting_et_prssure;
     private EditText systemsetting_et_concentration;
+    Handler handler = new Handler(){
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+            switch(msg.what){
+                case 1:
+            }
+        }
+    };
 
     @Nullable
     @Override
@@ -103,5 +114,16 @@ public class SystemSettingFragment extends Fragment{
         if(( systemsetting_et_concentration.getText()!=null) && (! systemsetting_et_concentration.equals(""))){
             CacheUtils.putString(getActivity(),Constants.ActivityExtra.SYSTEM_SETTING_CONCENTRATION, systemsetting_et_concentration.getText().toString());
         }
+    }
+
+    public void getData(){
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                Message msg = new Message();
+                msg.what =1;
+
+            }
+        }).start();
     }
 }

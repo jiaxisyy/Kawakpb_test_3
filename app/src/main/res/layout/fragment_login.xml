@@ -6,7 +6,7 @@
     <!--登录界面顶层布局-->
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="250px"
+        android:layout_height="200px"
         android:background="@mipmap/loging_blue_ditu"
         >
 
@@ -35,7 +35,7 @@
     <!--登录界面中间层布局-->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="256px"
+        android:layout_height="match_parent"
         android:background="@mipmap/loging_gray_di"
         android:gravity="center_horizontal">
         <LinearLayout
@@ -46,20 +46,24 @@
             android:gravity="center_horizontal">
             <EditText
                 android:id="@+id/login_input_username"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
                 android:background="@drawable/loging_input_yonghuming_selector"
                 android:layout_marginTop="20px"
-                android:paddingLeft="25dp"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px"
+                android:paddingLeft="50dp"
                 android:textSize="16px"
                 android:singleLine="true"/>
             <EditText
                 android:id="@+id/login_input_password"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
                 android:background="@drawable/loging_input_password_selector"
-                android:paddingLeft="25dp"
+                android:paddingLeft="50dp"
                 android:layout_marginTop="16px"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px"
                 android:textSize="16px"
                 android:singleLine="true"/>
             <LinearLayout
@@ -67,13 +71,12 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginTop="13px"
-                android:gravity="center_horizontal"
-                android:layout_marginRight="40px">
+              >
                 <CheckBox
                     android:id="@+id/login_checkbox_saveuesrname"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="26px"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20px"
                     android:layout_gravity="center_vertical"
                     style="@style/login_checkbox"/>
                 <TextView

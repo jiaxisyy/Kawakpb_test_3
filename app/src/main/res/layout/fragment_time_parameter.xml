@@ -52,7 +52,8 @@
                     android:background="@mipmap/parameter_time_a"
                     android:hint="60"
                     android:textColor="#ffffff"
-                    android:textSize="22px"
+                    android:textSize="16px"
+                    android:paddingRight="10sp"
                     android:layout_marginLeft="68px"
                     android:gravity="right|center_vertical"
 
@@ -79,7 +80,8 @@
                     android:background="@mipmap/parameter_time_b"
                     android:hint="30"
                     android:textColor="#ffffff"
-                    android:textSize="22px"
+                    android:textSize="16px"
+                    android:paddingRight="10sp"
                     android:singleLine="true"
                     android:layout_marginLeft="68px"
                     android:gravity="right|center_vertical"
@@ -114,7 +116,8 @@
                     android:background="@mipmap/parameter_time_a"
                     android:hint="60"
                     android:textColor="#ffffff"
-                    android:textSize="22px"
+                    android:textSize="16px"
+                    android:paddingRight="10sp"
                     android:singleLine="true"
                     android:layout_marginLeft="68px"
                     android:gravity="right|center_vertical"
@@ -141,7 +144,8 @@
                     android:background="@mipmap/parameter_time_b"
                     android:hint="30"
                     android:textColor="#ffffff"
-                    android:textSize="22px"
+                    android:textSize="16px"
+                    android:paddingRight="10sp"
                     android:singleLine="true"
                     android:layout_marginLeft="68px"
                     android:gravity="right|center_vertical"
@@ -161,18 +165,29 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center_horizontal"
+            android:gravity="center"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="PLC时间"
-                android:layout_marginTop="190px"
+                android:layout_marginTop="80px"
                 android:textColor="#ffffff"
-                android:textSize="26px"
-                android:id="@+id/textView" />
+                android:textSize="26px" />
+            <TextView
+                android:id="@+id/timesetting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="时间设置"
+                android:textSize="30px"
+                android:textColor="#ffffff"/>
+
+
         </LinearLayout>
+
     </LinearLayout>
+
 
 
 </LinearLayout>

@@ -58,7 +58,7 @@
             android:paddingLeft="20px"
             android:textColor="#ffffff"
             android:background="@drawable/set_specialcontrols_btn_selector"
-            android:layout_marginLeft="130px"/>
+            android:layout_marginLeft="165px"/>
         <Button
             android:id="@+id/specialcontrol_btn_stop_right"
             android:layout_width="wrap_content"
@@ -68,6 +68,6 @@
             android:gravity="center"
             android:background="@drawable/set_specialcontrols_btn_selector"
             android:textColor="#ffffff"
-            android:layout_marginLeft="260px"/>
+            android:layout_marginLeft="345px"/>
     </LinearLayout>
 </LinearLayout>

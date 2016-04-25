@@ -43,7 +43,7 @@
             android:text="自动"
             android:textSize="26px"
             android:textColor="#ffffff"
-            android:layout_marginRight="94px"/>
+            android:layout_marginRight="124px"/>
     </RelativeLayout>
     <!--中间层布局-->
     <LinearLayout
@@ -88,7 +88,8 @@
         android:layout_height="wrap_content"
         android:background="@mipmap/parameter_system_01"
         android:hint="60"
-        android:textSize="22px"
+        android:textSize="16px"
+        android:paddingRight="4sp"
         android:singleLine="true"
         android:textColor="#ffffff"
         android:layout_marginLeft="32px"
@@ -103,7 +104,8 @@
         android:hint="30"
         android:singleLine="true"
         android:textColor="#ffffff"
-        android:textSize="22px"
+        android:textSize="16px"
+        android:paddingRight="4sp"
         android:layout_marginTop="16px"
         android:layout_marginLeft="32px"
         android:gravity="right|center_vertical"
@@ -121,8 +123,8 @@
                 android:layout_weight="1"
                 android:text="主/副机"
                 android:gravity="center"
-                android:layout_marginLeft="212px"
-                android:layout_marginRight="34px"
+                android:layout_marginLeft="340px"
+
                 android:textSize="24px"
                 android:textColor="#ffffff"/>
         </RelativeLayout>
@@ -131,7 +133,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="right"
-            android:layout_marginRight="34px">
+            android:layout_marginRight="84px">
             <!--主机输入框-->
             <EditText
                 android:id="@+id/systemsetting_et_host"
@@ -141,9 +143,11 @@
                 android:hint="0.0"
                 android:singleLine="true"
                 android:textColor="#ffffff"
-                android:textSize="22px"
+                android:textSize="16px"
+                android:paddingRight="4sp"
                 android:layout_gravity="right"
                 android:gravity="right|center_vertical"
+
                />
             <!--副机输入框-->
             <EditText
@@ -154,7 +158,8 @@
                 android:hint="0.0"
                 android:singleLine="true"
                 android:textColor="#ffffff"
-                android:textSize="22px"
+                android:textSize="16px"
+                android:paddingRight="4sp"
                 android:layout_marginTop="16px"
                 android:gravity="right|center_vertical"
                 />
@@ -184,7 +189,8 @@
             android:singleLine="true"
             android:textColor="#ffffff"
             android:layout_marginLeft="20px"
-            android:textSize="22px"
+            android:textSize="16px"
+            android:paddingRight="4sp"
             android:gravity="right|center_vertical"
             />
     </LinearLayout>
@@ -210,7 +216,8 @@
             android:singleLine="true"
             android:textColor="#ffffff"
             android:layout_marginLeft="20px"
-            android:textSize="22px"
+            android:textSize="16px"
+            android:paddingRight="4sp"
             android:gravity="right|center_vertical"
           />
     </LinearLayout>

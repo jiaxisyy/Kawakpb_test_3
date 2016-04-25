@@ -28,7 +28,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35px">
+        android:layout_marginTop="28px">
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="58px">
+        android:layout_marginTop="50px">
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="130px"
+        android:layout_marginTop="116px"
         >
         <CheckBox
             android:layout_width="wrap_content"
@@ -104,7 +104,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="55px">
+        android:layout_marginTop="52px">
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

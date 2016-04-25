@@ -35,7 +35,7 @@
         android:layout_marginBottom="30px">
         <Button
             android:id="@+id/systemmode_btn_machine_a"
-            android:layout_marginLeft="170px"
+            android:layout_marginLeft="280px"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20px"
